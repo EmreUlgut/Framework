@@ -1,0 +1,12 @@
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/pages/LoginPage.java
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/testbase/PageInitializer.java
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/runners/TestRunner.java
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/steps/LoginSteps.java
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/utils/ExcelUtility.java
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/steps/Hooks.java
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/testbase/BaseClass.java
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/utils/CommonMethods.java
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/runners/FailedRunner.java
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/utils/ConfigsReader.java
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/utils/Constants.java
+/Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/java/com/neotech/pages/MainPage.java

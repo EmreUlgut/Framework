@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.neotech.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 37.7 s <<< FAILURE! - in com.neotech.runners.TestRunner
+Sauce Demo login.empty password  Time elapsed: 4.949 s  <<< FAILURE!
+org.junit.ComparisonFailure: The welcome message is different!!! expected:<...Password is required[...]> but was:<...Password is required[]>
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.neotech.runners.TestRunner" time="37.7" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/elionlimanaj/eclipse-workspace/AutomationFramework/target/test-classes:/Users/elionlimanaj/eclipse-workspace/AutomationFramework/target/classes:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/elionlimanaj/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/elionlimanaj/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/elionlimanaj/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/elionlimanaj/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/elionlimanaj/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/elionlimanaj/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/elionlimanaj/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/elionlimanaj/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/elionlimanaj/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/elionlimanaj/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/elionlimanaj/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/elionlimanaj/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/elionlimanaj/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/elionlimanaj/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/elionlimanaj/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/elionlimanaj/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/elionlimanaj/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/elionlimanaj/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/elionlimanaj/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/elionlimanaj/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/elionlimanaj/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/elionlimanaj/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-junit/6.9.1/cucumber-junit-6.9.1.jar:/Users/elionlimanaj/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/elionlimanaj/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/elionlimanaj/eclipse-workspace/AutomationFramework/target/surefire/surefirebooter6288011282788754485.jar /Users/elionlimanaj/eclipse-workspace/AutomationFramework/target/surefire 2021-02-09T17-08-39_329-jvmRun1 surefire6598454556328563158tmp surefire_07586334440086448029tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/elionlimanaj/eclipse-workspace/AutomationFramework/target/test-classes:/Users/elionlimanaj/eclipse-workspace/AutomationFramework/target/classes:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/elionlimanaj/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/elionlimanaj/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/elionlimanaj/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/elionlimanaj/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/elionlimanaj/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/elionlimanaj/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/elionlimanaj/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/elionlimanaj/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/elionlimanaj/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/elionlimanaj/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/elionlimanaj/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/elionlimanaj/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/elionlimanaj/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/elionlimanaj/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/elionlimanaj/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/elionlimanaj/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/elionlimanaj/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/elionlimanaj/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/elionlimanaj/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/elionlimanaj/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/elionlimanaj/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/elionlimanaj/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/elionlimanaj/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/elionlimanaj/.m2/repository/io/cucumber/cucumber-junit/6.9.1/cucumber-junit-6.9.1.jar:/Users/elionlimanaj/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/elionlimanaj/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/elionlimanaj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/elionlimanaj/eclipse-workspace/AutomationFramework"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/elionlimanaj/eclipse-workspace/AutomationFramework/target/surefire/surefirebooter6288011282788754485.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="user.name" value="elionlimanaj"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/elionlimanaj/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/0m/ft6vxrm952x7vm9wyghf__jr0000gn/T/"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="user.dir" value="/Users/elionlimanaj/eclipse-workspace/AutomationFramework"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/elionlimanaj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.ext.dirs" value="/Users/elionlimanaj/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="valid login" classname="Sauce Demo login" time="6.528"/>
+  <testcase name="empty password" classname="Sauce Demo login" time="4.949">
+    <failure message="The welcome message is different!!! expected:&lt;...Password is required[...]&gt; but was:&lt;...Password is required[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: The welcome message is different!!! expected:<...Password is required[...]> but was:<...Password is required[]>
+]]></failure>
+    <system-out><![CDATA[
+@login
+Scenario: empty password                                                            # src/test/resources/features/Login.feature:11
+  When user enters valid username                                                   # com.neotech.steps.LoginSteps.user_enters_valid_username()
+  And user leaves password empty                                                    # com.neotech.steps.LoginSteps.user_leaves_password_empty()
+  And click on login button                                                         # com.neotech.steps.LoginSteps.click_on_login_button()
+  Then I validate that "Epic sadface: Password is required..." message is displayed # com.neotech.steps.LoginSteps.i_validate_that_message_is_displayed(java.lang.String)
+      org.junit.ComparisonFailure: The welcome message is different!!! expected:<...Password is required[...]> but was:<...Password is required[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.neotech.steps.LoginSteps.i_validate_that_message_is_displayed(LoginSteps.java:42)
+	at ✽.I validate that "Epic sadface: Password is required..." message is displayed(file:///Users/elionlimanaj/eclipse-workspace/AutomationFramework/src/test/resources/features/Login.feature:15)
+
+
+    Embedding empty password [image/png 227176 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 5251
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 09, 2021 5:08:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="invalid login" classname="Sauce Demo login" time="25.622"/>
+</testsuite>
